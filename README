@@ -1,0 +1,83 @@
+phpHomeSite - Readme
+====================
+
+A very small and fast Web Home Page CMS. It is coded in PHP4 and uses MySQL as
+a backend database for data storing. A slick web administration interface allows
+the user to manage menu entries, blog, guestbook, images, links and html content
+insertion and edit.
+
+Version 0.4 was completely recoded from scratch and the project renamed to phphomesite.
+This software was formely known as phphomepage, but it seemed someone else had already
+created a script with that name before, so i had to rename it.
+
+Version 0.4.1
+-----------------
+
+Copyright (C) 2005 Rui Ferrao <ferrao@eixodigital.com>
+
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2,
+as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+Requirements:
+
+PHP4 with gd2 and mysql extensions enabled and a MySQL database.
+It was been tested to work in a Linux/Apache environment
+with the following software versions :
+
+php4		4.3
+php4-gd2 	4.3
+php4-mysql 	4.3
+mysql		4.0
+
+If you find phphomesite does not work with your php/mysql versions,
+please report. If you make it run on any other type of environment, i will
+be happy to hear about it.
+
+How to download:
+
+How to install:
+
+	Decompress the tarball into a web server directory.
+	Change the database name in phphomesite.sql if needed.
+	Run mysql -u username -p < phphomesite.sql
+	Edit config.php to reflect your settings.
+	Give write permissions on $UPLOAD, $PICS, $HTML and $BLOG to
+	your web server user.
+	Point your browser to /admin and have fun.
+
+Upgrade from 0.3 (guestbook and blog only!) :
+
+	Change the database name in upgrade.sql
+	Run mysql -u username -p < upgrade.sql should get your 0.3 database upgraded.
+	Copy all blog_ files from 0.3 into the $UPLOAD/$BLOG directory
+	Make sure the web server user can write on all $BLOG images you have copied
+	Execute the resize option on Blog Management
+
+Gallery Module :
+
+	Start by creating a new gallery - Gallery menu under admin
+	Create a new folder for pictures - Create Folder on Pictures menu
+
+	Repeat following steps for every picture :
+
+	Upload pictures to folder - Pictures menu under admin
+	Select Folder - Click on right menu folder name under Pictures menu
+	Select picture to submit to gallery by pressing Add Gallery icon
+
+	Add a Gallery menu to your page using Add Gallery under Menu configuration.
+
+Contacting the author:
+
+www:	http://www.ruiferrao.com
+email:	ferrao@eixodigital.com

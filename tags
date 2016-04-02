@@ -1,0 +1,322 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+BLOG	config.php	/^$BLOG = "blog";$/;"	v
+BPREFIX	include/blog.php	/^define ("BPREFIX", "blog_");$/;"	d
+DBHOST	config.php	/^$DBHOST = "localhost";$/;"	v
+DBNAME	config.php	/^$DBNAME = "phphomesite";$/;"	v
+DBPASS	config.php	/^$DBPASS = "";$/;"	v
+DBUSER	config.php	/^$DBUSER = "root";$/;"	v
+HOME	config.php	/^$HOME = "\/var\/www\/phphomesite";$/;"	v
+HTML	config.php	/^$HTML = "html";$/;"	v
+NOLGROUP	admin/content.php	/^define("NOLGROUP", 0);$/;"	d
+NOLIMIT	admin/content.php	/^define("NOLIMIT", 0);$/;"	d
+NOLIMIT	content.php	/^define("NOLIMIT", 0);$/;"	d
+PICS	config.php	/^$PICS = "pictures";$/;"	v
+SPREFIX	include/files.php	/^define("SPREFIX","sized_");$/;"	d
+TPREFIX	include/files.php	/^define("TPREFIX","thumb_");$/;"	d
+UPLOAD	config.php	/^$UPLOAD = "upload";$/;"	v
+URL	config.php	/^$URL = "http:\/\/probe\/phphomesite";$/;"	v
+add_content	include/navigation.php	/^function add_content($name, $nav, $ln_id, $ctype, $table_id) $/;"	f
+add_html_file	include/html.php	/^function add_html_file($name)$/;"	f
+bimagename	include/blog.php	/^		$bimagename = $userfile['name'];$/;"	v
+bimagepath	include/blog.php	/^			$bimagepath = get_blog_path($row[b_picture]);$/;"	v
+bimagepath	include/blog.php	/^		$bimagepath = get_blog_path($bimagename);$/;"	v
+bitem	include/blog.php	/^	$bitem = get_blog_item($id);$/;"	v
+blog	admin/content.php	/^		$blog = get_blog(NOLIMIT);$/;"	v
+blog	include/blog.php	/^	$blog = get_blog("NOLIMIT");$/;"	v
+blog_config	include/config.php	/^function blog_config($post)$/;"	f
+blog_item	admin/content.php	/^		$blog_item = get_blog_item($_GET['id']);$/;"	v
+blogname	content.php	/^			$blogname = get_blog_name();$/;"	v
+bthumbpath	include/blog.php	/^			$bthumbpath = get_bthumb_path($row[b_picture]);$/;"	v
+bthumbpath	include/blog.php	/^		$bthumbpath = get_bthumb_path($bimagename);$/;"	v
+c	admin/content.php	/^				$c = "color2";$/;"	v
+c	admin/content.php	/^			$c = "color1";$/;"	v
+c	admin/content.php	/^			$c = "color2";$/;"	v
+check_config	include/defaults.php	/^function check_config()$/;"	f
+checkgd	include/gfx.php	/^function checkgd(){$/;"	f
+col	content.php	/^				$col = 0;$/;"	v
+col	content.php	/^		$col = 0;$/;"	v
+connect_database	include/db.php	/^function connect_database() {$/;"	f
+count_table	include/db.php	/^function count_table($table)$/;"	f
+create_folder	include/files.php	/^function create_folder($folder)$/;"	f
+create_sized_picture	include/pictures.php	/^function create_sized_picture($folder, $file, $width, $height)$/;"	f
+create_thumb	include/gfx.php	/^function create_thumb($image_path,$thumb_path,$tx,$ty)$/;"	f
+cur_id	include/pos.php	/^		$cur_id = $row[0];$/;"	v
+cur_id	include/pos.php	/^	$cur_id = NULL;$/;"	v
+cur_id	include/pos.php	/^	$cur_id = null;$/;"	v
+cur_pos	include/pos.php	/^		$cur_pos = $row[1];$/;"	v
+cur_pos	include/pos.php	/^	$cur_pos = NULL;$/;"	v
+cur_pos	include/pos.php	/^	$cur_pos = null;$/;"	v
+datetime	include/guestbook.php	/^	$datetime = getdatetime();$/;"	v
+delete_blog	include/blog.php	/^function delete_blog($id)$/;"	f
+delete_folder	include/files.php	/^function delete_folder($folder)$/;"	f
+delete_guestbook	include/guestbook.php	/^function delete_guestbook($id)$/;"	f
+delete_html	include/html.php	/^function delete_html($name)$/;"	f
+delete_lgroup	include/links.php	/^function delete_lgroup($lgid)$/;"	f
+details	include/pictures.php	/^	$details = get_pic_details($id);	$/;"	v
+down_image	include/gal.php	/^function down_image($id, $gid)$/;"	f
+down_item	include/pos.php	/^function down_item($table, $condition, $prefix, $id)$/;"	f
+down_menu	include/navigation.php	/^function down_menu($id, $nav)$/;"	f
+dst_img	include/gfx.php	/^		$dst_img=ImageCreate($new_w,$new_h);$/;"	v
+dst_img	include/gfx.php	/^		$dst_img=ImageCreateTrueColor($new_w,$new_h);$/;"	v
+error	include/error.php	/^function error($string) {$/;"	f
+exist_links	include/links.php	/^function exist_links($lgid)$/;"	f
+exists_content	include/navigation.php	/^function exists_content($ctype) {$/;"	f
+exists_folder	include/files.php	/^function exists_folder($folder) $/;"	f
+exists_html_file	include/html.php	/^function exists_html_file($name)$/;"	f
+exists_thumb	include/files.php	/^function exists_thumb($folder, $file)$/;"	f
+ext	include/gfx.php	/^	$ext = array_pop($split);$/;"	v
+file	admin/content.php	/^				$file = get_thumb_url($img[0]['p_name'], $img[0]['p_folder']);$/;"	v
+file	include/html.php	/^	$file = get_html_name($id);$/;"	v
+file_path	include/pictures.php	/^	$file_path = get_pic_path($file, $folder);$/;"	v
+folder	admin/content.php	/^		$folder = $_GET['folder'];$/;"	v
+folders	admin/menu.php	/^		$folders = get_folders();$/;"	v
+gal	admin/content.php	/^		$gal = get_gallery_name($_GET['gid']);$/;"	v
+gal_config	include/config.php	/^function gal_config($post)$/;"	f
+galleries	admin/content.php	/^		$galleries = get_gallery();$/;"	v
+gals	admin/content.php	/^			$gals = get_gallery_name_list();$/;"	v
+gals	admin/menu.php	/^		$gals = get_gallery_name_list();$/;"	v
+gb_config	include/config.php	/^function gb_config($post)$/;"	f
+gb_greeting	forms/gb_form.php	/^	$gb_greeting = "Sign My Guestbook!";$/;"	v
+gbname	content.php	/^			$gbname = get_guestbook_name();$/;"	v
+gd2	include/gfx.php	/^        $gd2="";$/;"	v
+get_auth	include/auth.php	/^function get_auth ($user, $pass)$/;"	f
+get_blog	include/blog.php	/^function get_blog($lim)$/;"	f
+get_blog_item	include/blog.php	/^function get_blog_item($id)$/;"	f
+get_blog_name	include/blog.php	/^function get_blog_name()$/;"	f
+get_blog_path	include/blog.php	/^function get_blog_path($name)$/;"	f
+get_blog_url	include/blog.php	/^function get_blog_url($name)$/;"	f
+get_bthumb_path	include/blog.php	/^function get_bthumb_path($name)$/;"	f
+get_bthumb_url	include/blog.php	/^function get_bthumb_url($name)$/;"	f
+get_cid_fromnav	include/navigation.php	/^function get_cid_fromnav($id, $nav)$/;"	f
+get_config	include/defaults.php	/^function get_config($name) $/;"	f
+get_filesize	include/files.php	/^function get_filesize($folder, $file)$/;"	f
+get_folder_path	include/files.php	/^function get_folder_path($folder)$/;"	f
+get_folders	include/files.php	/^function get_folders()$/;"	f
+get_gallery	include/gal.php	/^function get_gallery()$/;"	f
+get_gallery_id	include/gal.php	/^function get_gallery_id($name)$/;"	f
+get_gallery_item	include/gal.php	/^function get_gallery_item($id)$/;"	f
+get_gallery_name	include/gal.php	/^function get_gallery_name($id)$/;"	f
+get_gallery_name_list	include/gal.php	/^function get_gallery_name_list()$/;"	f
+get_guestbook	include/guestbook.php	/^function get_guestbook($limit)$/;"	f
+get_guestbook_name	include/guestbook.php	/^function get_guestbook_name()$/;"	f
+get_html_content	include/html.php	/^function get_html_content($file) {$/;"	f
+get_html_files	include/html.php	/^function get_html_files()$/;"	f
+get_html_id	include/html.php	/^function get_html_id($name)$/;"	f
+get_html_name	include/html.php	/^function get_html_name($id)$/;"	f
+get_html_path	include/html.php	/^function get_html_path($name)$/;"	f
+get_images	include/gal.php	/^function get_images($gal_id, $limit)$/;"	f
+get_left_content	include/navigation.php	/^function get_left_content($limit)$/;"	f
+get_lgname	include/links.php	/^function get_lgname($lgid)$/;"	f
+get_lgroups	include/links.php	/^function get_lgroups()$/;"	f
+get_link_id	include/links.php	/^function get_link_id($name)$/;"	f
+get_link_name	include/links.php	/^function get_link_name($id) $/;"	f
+get_link_url	include/links.php	/^function get_link_url($id) $/;"	f
+get_links	include/links.php	/^function get_links($lgid)$/;"	f
+get_max_id	include/navigation.php	/^function get_max_id($ctype)$/;"	f
+get_max_pos	include/db.php	/^function get_max_pos($table, $prefix)$/;"	f
+get_pic_details	include/pictures.php	/^function get_pic_details($id)$/;"	f
+get_pic_path	include/files.php	/^function get_pic_path($name, $folder)$/;"	f
+get_pictureid	include/pictures.php	/^function get_pictureid($folder, $name)$/;"	f
+get_pictures	include/pictures.php	/^function get_pictures($folder)$/;"	f
+get_right_content	include/navigation.php	/^function get_right_content($ln_id, $limit)$/;"	f
+get_size	include/gfx.php	/^function get_size($path)$/;"	f
+get_sized_path	include/files.php	/^function get_sized_path($name, $folder)$/;"	f
+get_sized_url	include/files.php	/^function get_sized_url($name, $folder)$/;"	f
+get_table_id	include/navigation.php	/^function get_table_id($navid)$/;"	f
+get_thumb_path	include/files.php	/^function get_thumb_path($name, $folder)$/;"	f
+get_thumb_url	include/files.php	/^function get_thumb_url($name, $folder)$/;"	f
+getdatetime	include/db.php	/^function getdatetime()$/;"	f
+global_config	include/config.php	/^function global_config($post)$/;"	f
+guestbook	admin/content.php	/^		$guestbook = get_guestbook(NOLIMIT);$/;"	v
+guestbook	content.php	/^		$guestbook = get_guestbook($gblimit);$/;"	v
+hash	admin/content.php	/^				$hash = md5($_POST['password']);$/;"	v
+height	include/pictures.php	/^		$height = 50;$/;"	v
+href	content.php	/^			$href = get_link_url($row['l_id']);$/;"	v
+html	admin/content.php	/^			$html = get_html_files();$/;"	v
+id_field	include/pos.php	/^	$id_field = $prefix . "_id";$/;"	v
+imagename	include/pictures.php	/^	$imagename = $userfile['name'];$/;"	v
+imagepath	include/pictures.php	/^	$imagepath = get_pic_path($imagename, $folder);$/;"	v
+images	admin/content.php	/^		$images = get_images($_GET['gid'], 0);	$/;"	v
+img	admin/content.php	/^				$img = get_images($i['g_id'], 1);$/;"	v
+insert_blog	include/blog.php	/^function insert_blog($text, $userfile, $popup) $/;"	f
+insert_gallery_item	include/gal.php	/^function insert_gallery_item($name, $rows, $cols, $text)$/;"	f
+insert_guestbook	include/guestbook.php	/^function insert_guestbook($poster, $text)$/;"	f
+insert_image	include/gal.php	/^function insert_image($pic_id, $gal_id, $caption, $width, $height, $link_id)$/;"	f
+insert_lgroup	include/links.php	/^function insert_lgroup($lgroup)$/;"	f
+insert_link	include/links.php	/^function insert_link($lgid, $name, $url)$/;"	f
+insert_picture	include/pictures.php	/^function insert_picture($userfile, $folder)$/;"	f
+is_digits	include/error.php	/^function is_digits($string)$/;"	f
+is_lettersdigits	include/error.php	/^function is_lettersdigits($string) $/;"	f
+lgroup	admin/content.php	/^		$lgroup = get_lgname($_GET['lgid']);$/;"	v
+lgroups	admin/menu.php	/^		$lgroups = get_lgroups();$/;"	v
+links	admin/content.php	/^			$links = get_links(NOLGROUP);$/;"	v
+links	admin/content.php	/^		$links = get_links($_GET['lgid']);$/;"	v
+ln_id	admin/menu.php	/^			$ln_id = "";$/;"	v
+ln_id	admin/menu.php	/^			$ln_id = $_GET['id'];$/;"	v
+lnav	admin/content.php	/^		$lnav = get_left_content(0);$/;"	v
+menu	admin/menu.php	/^			$menu = "lnav";$/;"	v
+menu	admin/menu.php	/^			$menu = "rnav";$/;"	v
+menu	admin/menu.php	/^			$menu = $_GET['menu'];$/;"	v
+move_file	include/files.php	/^function move_file($userfile, $path)$/;"	f
+name	include/defaults.php	/^		$name = addslashes($name);$/;"	v
+name	include/gal.php	/^		$name = addslashes($name);$/;"	v
+name	include/links.php	/^		$name = addslashes($name);$/;"	v
+name	menu.php	/^	$name = stripslashes($row[c_name]);$/;"	v
+new_h	include/gfx.php	/^		$new_h = $old_y * ($ty \/ $old_x);$/;"	v
+new_h	include/gfx.php	/^		$new_h = $ty;$/;"	v
+new_w	include/gfx.php	/^		$new_w = $old_x * ($tx \/ $old_y);$/;"	v
+new_w	include/gfx.php	/^		$new_w = $tx;$/;"	v
+newpath	include/files.php	/^	$newpath = get_folder_path($newfolder);$/;"	v
+next_id	include/pos.php	/^	$next_id = $row[0];$/;"	v
+next_pos	include/pos.php	/^	$next_pos = $row[1];$/;"	v
+old_x	include/gfx.php	/^	$old_x = imageSX($src_img);$/;"	v
+old_y	include/gfx.php	/^	$old_y = imageSY($src_img);$/;"	v
+oldpath	include/files.php	/^	$oldpath = get_folder_path($oldfolder);$/;"	v
+path	include/files.php	/^	$path = $HOME . "\/" . $UPLOAD . "\/" . $PICS;$/;"	v
+path	include/files.php	/^	$path = get_folder_path($folder);$/;"	v
+path	include/files.php	/^	$path = get_pic_path($file, $folder);$/;"	v
+path	include/html.php	/^	$path = $HOME . "\/" . $UPLOAD . "\/" . $HTML . "\/" . $file;$/;"	v
+path	include/html.php	/^  $path = $HOME . "\/" . $UPLOAD . "\/" . $HTML;$/;"	v
+phpinfo	include/gfx.php	/^        $phpinfo=ob_get_contents();$/;"	v
+phpinfo	include/gfx.php	/^        $phpinfo=strip_tags($phpinfo);$/;"	v
+phpinfo	include/gfx.php	/^        $phpinfo=stristr($phpinfo,"gd version");$/;"	v
+phpinfo	include/gfx.php	/^        $phpinfo=stristr($phpinfo,"version");$/;"	v
+picture	include/gal.php	/^	$picture = get_pic_details(mysql_result($query,p_id));$/;"	v
+pictures	admin/content.php	/^		$pictures = get_pictures($folder);$/;"	v
+pos	include/gal.php	/^	$pos = count_table("image") + 1;$/;"	v
+pos	include/navigation.php	/^			$pos = get_max_pos("lnav", "ln") + 1;$/;"	v
+pos	include/navigation.php	/^			$pos = get_max_pos("rnav", "rn") + 1;$/;"	v
+pos_field	include/pos.php	/^	$pos_field = $prefix . "_pos";$/;"	v
+posted	include/blog.php	/^	$posted = getdatetime();$/;"	v
+poster	include/guestbook.php	/^	$poster = addslashes($poster);$/;"	v
+prev_id	include/pos.php	/^		$prev_id = $cur_id;$/;"	v
+prev_pos	include/pos.php	/^		$prev_pos = $cur_pos;$/;"	v
+proc_menu	menu.php	/^function proc_menu(&$row,$positioning) $/;"	f
+query	include/blog.php	/^	$query = mysql_query("DELETE FROM blog WHERE b_id = '$id'");$/;"	v
+query	include/blog.php	/^	$query = mysql_query($sql);$/;"	v
+query	include/db.php	/^	$query = mysql_query("SELECT COUNT(*) FROM $table");$/;"	v
+query	include/db.php	/^	$query = mysql_query($sql);$/;"	v
+query	include/defaults.php	/^		$query = mysql_query("INSERT INTO config VALUES ('$name', '$value')");$/;"	v
+query	include/defaults.php	/^		$query = mysql_query("UPDATE config SET c_value='$value' WHERE c_name='$name'");	$/;"	v
+query	include/defaults.php	/^	$query = mysql_query ("SELECT c_value FROM config WHERE c_name='$name'");$/;"	v
+query	include/defaults.php	/^	$query = mysql_query("SELECT c_value FROM config WHERE c_name='$name'");$/;"	v
+query	include/gal.php	/^	$query = mysql_query ("SELECT g_id FROM gallery WHERE g_name = '$name'");$/;"	v
+query	include/gal.php	/^	$query = mysql_query ("SELECT g_name FROM gallery WHERE g_id = '$id'");$/;"	v
+query	include/gal.php	/^	$query = mysql_query ("SELECT g_name FROM gallery");$/;"	v
+query	include/gal.php	/^	$query = mysql_query("DELETE FROM gallery WHERE g_id='$id'");$/;"	v
+query	include/gal.php	/^	$query = mysql_query("DELETE FROM image WHERE i_id='$id'");$/;"	v
+query	include/gal.php	/^	$query = mysql_query("INSERT INTO gallery (g_name, g_rows, g_cols, g_text)$/;"	v
+query	include/gal.php	/^	$query = mysql_query("SELECT COUNT(*) FROM image WHERE g_id='$id'");$/;"	v
+query	include/gal.php	/^	$query = mysql_query("SELECT g_id, g_name, g_rows, g_cols, g_text$/;"	v
+query	include/gal.php	/^	$query = mysql_query("SELECT g_name, g_rows, g_cols, g_text FROM gallery WHERE g_id = '$id'");$/;"	v
+query	include/gal.php	/^	$query = mysql_query("UPDATE gallery SET g_name='$name', g_cols='$cols', g_rows='$rows', g_text='$text'$/;"	v
+query	include/gal.php	/^	$query = mysql_query($sql);		  $/;"	v
+query	include/gal.php	/^	$query = mysql_query($sql);$/;"	v
+query	include/guestbook.php	/^		  $query = mysql_query("DELETE FROM guestbook WHERE gb_id = '$id'");$/;"	v
+query	include/guestbook.php	/^		  $query = mysql_query($sql);$/;"	v
+query	include/guestbook.php	/^	$query = mysql_query($sql);$/;"	v
+query	include/html.php	/^		$query = mysql_query("DELETE FROM html WHERE h_file='$name'");$/;"	v
+query	include/html.php	/^	$query = mysql_query("INSERT INTO html (h_file) VALUES ('$name')");$/;"	v
+query	include/html.php	/^	$query = mysql_query("SELECT h_file FROM html WHERE h_file='$name'");$/;"	v
+query	include/html.php	/^	$query = mysql_query("SELECT h_file FROM html WHERE h_id='$id'");$/;"	v
+query	include/html.php	/^	$query = mysql_query("SELECT h_file FROM html");$/;"	v
+query	include/html.php	/^	$query = mysql_query("SELECT h_id FROM html WHERE h_file='$name'");$/;"	v
+query	include/links.php	/^	$query = mysql_query ("SELECT l_id FROM links WHERE l_name = '$name'");$/;"	v
+query	include/links.php	/^	$query = mysql_query ("SELECT l_name FROM links WHERE l_id='$id'");$/;"	v
+query	include/links.php	/^	$query = mysql_query ("SELECT l_url FROM links WHERE l_id='$id'");$/;"	v
+query	include/links.php	/^	$query = mysql_query("DELETE FROM lgroup WHERE lg_id = '$lgid'");$/;"	v
+query	include/links.php	/^	$query = mysql_query("DELETE FROM links WHERE l_id = '$lid'");$/;"	v
+query	include/links.php	/^	$query = mysql_query("INSERT INTO lgroup (lg_name) VALUES ('$lgroup')");$/;"	v
+query	include/links.php	/^	$query = mysql_query("INSERT INTO links (l_name, l_url, lg_id) VALUES ('$name', '$url', '$lgid')");$/;"	v
+query	include/links.php	/^	$query = mysql_query("SELECT COUNT(*) FROM links WHERE lg_id = '$lgid'");$/;"	v
+query	include/links.php	/^	$query = mysql_query("SELECT lg_id, lg_name FROM lgroup");$/;"	v
+query	include/links.php	/^	$query = mysql_query("SELECT lg_name FROM lgroup WHERE lg_id = '$lgid'");$/;"	v
+query	include/links.php	/^	$query = mysql_query("UPDATE lgroup SET lg_name='$nlgroup' WHERE lg_id='$lgid'");$/;"	v
+query	include/links.php	/^	$query = mysql_query($sql);$/;"	v
+query	include/navigation.php	/^		$query = mysql_query("SELECT COUNT(*) FROM rnav WHERE ln_id = '$id'");$/;"	v
+query	include/navigation.php	/^	$query = mysql_query("DELETE FROM content WHERE c_id = '$c_id'");$/;"	v
+query	include/navigation.php	/^	$query = mysql_query("DELETE from $nav WHERE c_id = '$c_id'");$/;"	v
+query	include/navigation.php	/^	$query = mysql_query("SELECT COUNT(*) FROM content WHERE c_type = '$ctype'");$/;"	v
+query	include/navigation.php	/^	$query = mysql_query($sql);$/;"	v
+query	include/pictures.php	/^		$query = mysql_query ("INSERT INTO picture (p_name, p_folder)$/;"	v
+query	include/pictures.php	/^	$query = mysql_query ("DELETE FROM picture WHERE p_id='$id'");$/;"	v
+query	include/pictures.php	/^	$query = mysql_query ("SELECT COUNT(*) FROM image WHERE p_id='$id'");$/;"	v
+query	include/pictures.php	/^	$query = mysql_query ("SELECT p_id FROM picture WHERE p_folder=\\"$folder\\"$/;"	v
+query	include/pictures.php	/^	$query = mysql_query ("SELECT p_name FROM picture WHERE p_folder='$folder'");$/;"	v
+query	include/pictures.php	/^	$query = mysql_query ("SELECT p_name, p_folder FROM picture WHERE p_id='$id'");$/;"	v
+query	include/pos.php	/^	$query = mysql_query($sql);	$/;"	v
+query	include/pos.php	/^	$query = mysql_query($sql);$/;"	v
+query	menu.php	/^	$query = mysql_query ("	SELECT c_type, c_name, table_id$/;"	v
+query	menu.php	/^	$query = mysql_query ("SELECT ln_id FROM lnav ORDER BY ln_pos LIMIT 1");$/;"	v
+query	menu.php	/^$query = mysql_query ("	SELECT c_type, c_name, table_id , ln_id$/;"	v
+remove_br	include/html.php	/^function remove_br($text)$/;"	f
+remove_gallery_item	include/gal.php	/^function remove_gallery_item($id)$/;"	f
+remove_image	include/gal.php	/^function remove_image($id)$/;"	f
+remove_link	include/links.php	/^function remove_link($lid) {$/;"	f
+remove_menu	include/navigation.php	/^function remove_menu($id, $nav)$/;"	f
+remove_picture	include/pictures.php	/^function remove_picture($id)$/;"	f
+rename_folder	include/files.php	/^function rename_folder($oldfolder, $newfolder)$/;"	f
+rename_lgroup	include/links.php	/^function rename_lgroup($lgid, $nlgroup)$/;"	f
+render_html	include/html.php	/^function render_html($id) $/;"	f
+resize_blog	include/blog.php	/^function resize_blog()$/;"	f
+rnav	admin/content.php	/^		$rnav = get_right_content($_GET['id'],0);$/;"	v
+set_config	include/defaults.php	/^function set_config($name, $value)$/;"	f
+size	admin/content.php	/^					$size = @filesize(get_html_path($i));$/;"	v
+sized_path	include/pictures.php	/^	$sized_path = get_sized_path($file, $folder);$/;"	v
+split	include/gfx.php	/^	$split = explode(".",$image_path);$/;"	v
+split	include/gfx.php	/^	$split = explode(".",$path);$/;"	v
+sql	include/blog.php	/^	$sql = "INSERT INTO blog (b_date, b_text, b_picture, b_popup) VALUES ('$posted' , '$text', '$bimagename', '$popup')";$/;"	v
+sql	include/blog.php	/^	$sql = "SELECT b_id, b_date, b_text, b_picture, b_popup FROM blog ORDER BY b_date DESC";$/;"	v
+sql	include/blog.php	/^	$sql = "SELECT b_text, b_picture, b_popup FROM blog WHERE b_id = '$id'";$/;"	v
+sql	include/blog.php	/^	$sql = "SELECT c_name FROM content WHERE c_type = 'B'";$/;"	v
+sql	include/blog.php	/^	$sql = "UPDATE blog SET b_text = '$text'";$/;"	v
+sql	include/db.php	/^	$sql = "SELECT MAX($field) FROM $table"; $/;"	v
+sql	include/gal.php	/^	$sql = "INSERT INTO image (g_id, i_pos, p_id, l_id, i_width, i_height, i_caption) $/;"	v
+sql	include/gal.php	/^	$sql = "SELECT i_id, p_name, p_folder, i_width, i_height, i_caption, l_id $/;"	v
+sql	include/gal.php	/^	$sql = "SELECT p_id FROM image WHERE i_id ='$id'";$/;"	v
+sql	include/guestbook.php	/^	$sql = "INSERT INTO guestbook (gb_name, gb_date, gb_text) VALUES ('$poster' , '$datetime' , '$text')";$/;"	v
+sql	include/guestbook.php	/^	$sql = "SELECT c_name FROM content WHERE c_type = 'G'";$/;"	v
+sql	include/guestbook.php	/^	$sql = "SELECT gb_id, gb_name, gb_date, gb_text FROM guestbook ORDER BY gb_date DESC";$/;"	v
+sql	include/links.php	/^	$sql = "SELECT l_id, l_name, l_url, lg_id  FROM links";$/;"	v
+sql	include/navigation.php	/^			$sql = "INSERT INTO lnav (c_id, ln_pos) VALUES ('$c_id', '$pos')";$/;"	v
+sql	include/navigation.php	/^			$sql = "INSERT INTO rnav (ln_id, c_id, rn_pos) VALUES ('$ln_id', '$c_id', '$pos')";$/;"	v
+sql	include/navigation.php	/^		$sql = "SELECT c_id FROM lnav WHERE ln_id = '$id'";$/;"	v
+sql	include/navigation.php	/^		$sql = "SELECT c_id FROM rnav WHERE rn_id = '$id'";$/;"	v
+sql	include/navigation.php	/^	$sql = "INSERT INTO content (c_name, c_type, table_id) VALUES ('$name', '$ctype', '$table_id')";$/;"	v
+sql	include/navigation.php	/^	$sql = "SELECT MAX(c_id) FROM content WHERE c_type = '$ctype'";$/;"	v
+sql	include/navigation.php	/^	$sql = "SELECT ln_id , ln_pos, content.c_id, c_type, c_name FROM content, lnav WHERE content.c_id = lnav.c_id ORDER BY ln_pos";$/;"	v
+sql	include/navigation.php	/^	$sql = "SELECT rn_id, c_type, c_name, rn_pos FROM content, rnav WHERE content.c_id = rnav.c_id AND ln_id=$ln_id";$/;"	v
+sql	include/navigation.php	/^	$sql = "SELECT table_id FROM content WHERE c_id = '$navid'";$/;"	v
+sql	include/pos.php	/^	$sql = "SELECT " . $id_field . ", " . $pos_field . " FROM " . $table; $/;"	v
+sql	include/pos.php	/^	$sql = "SELECT " . $id_field . ", " . $pos_field . " FROM " . $table;$/;"	v
+sql	include/pos.php	/^	$sql = "UPDATE " . $table . " SET " .  $pos_field . " = '" . $next_pos . "' WHERE " . $id_field . " = '" . $cur_id . "'";$/;"	v
+sql	include/pos.php	/^	$sql = "UPDATE " . $table . " SET " .  $pos_field . " = '" . $prev_pos . "' WHERE " . $id_field . " = '" . $cur_id . "'";$/;"	v
+sql	include/pos.php	/^	$sql = "UPDATE " . $table . " SET " . $pos_field . " = '" . $cur_pos . "' WHERE " . $id_field . " = '" . $next_id . "'";$/;"	v
+sql	include/pos.php	/^	$sql = "UPDATE " . $table . " SET " . $pos_field . " = '" . $cur_pos . "' WHERE " . $id_field . " = '" . $prev_id . "'";$/;"	v
+text	admin/content.php	/^		$text = get_html_content($_GET['file']);	$/;"	v
+text	content.php	/^		$text = render_html($_GET['id']);$/;"	v
+text	include/blog.php	/^	$text = nl2br($text);$/;"	v
+text	include/gal.php	/^		$text = addslashes($text);$/;"	v
+text	include/gal.php	/^	$text = nl2br($text);$/;"	v
+text	include/guestbook.php	/^	$text = nl2br(addslashes($text));$/;"	v
+thumb	admin/content.php	/^				$thumb = get_thumb_url($i, $folder);$/;"	v
+thumb	admin/content.php	/^				$thumb = get_thumb_url($i['p_name'], $i['p_folder']);$/;"	v
+thumb	include/files.php	/^	$thumb = get_thumb_path($file, $folder);$/;"	v
+thumb_path	include/pictures.php	/^	$thumb_path = get_thumb_path($file, $folder);$/;"	v
+thumb_picture	include/pictures.php	/^function thumb_picture($folder, $file)$/;"	f
+title	admin/header.php	/^$title = get_config ('title');$/;"	v
+title	header.php	/^$title = get_config ('title');$/;"	v
+up_image	include/gal.php	/^function up_image($id, $gid)$/;"	f
+up_item	include/pos.php	/^function up_item($table, $condition, $prefix, $id)$/;"	f
+up_menu	include/navigation.php	/^function up_menu($id, $nav)$/;"	f
+update_blog_item	include/blog.php	/^function update_blog_item($id, $text, $userfile, $popup)$/;"	f
+update_gallery_item	include/gal.php	/^function update_gallery_item($id, $name, $cols, $rows, $text)$/;"	f
+url	include/links.php	/^		$url = addslashes($url);$/;"	v
+value	include/defaults.php	/^		$value = addslashes($value);$/;"	v
+width	include/pictures.php	/^		$width = 50;$/;"	v
+write_html_content	include/html.php	/^function write_html_content($file, $text) {$/;"	f

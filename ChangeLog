@@ -1,0 +1,21 @@
+phphomesite (0.4.1-1)
+
+	* Right navigation seems to be fixed now
+	* Empty guestbook was printing error on some installs, fixed 
+
+phphomesite (0.4.1)
+
+	* Several new configuration options that can now be changed online
+	* Site template/engine now allows both left and right menus
+	* Gallery module and html file management now supports folders.
+	* Image size is now configurable on both Blog and Gallery images
+	* Complete recode from scratch 
+
+phphomepage (0.3a)
+
+	* Added a simple Gallery Module
+
+phphomepage (0.2a)
+	
+	* Option to insert a picture in blog entries is now possible.
+	* File management was added.
